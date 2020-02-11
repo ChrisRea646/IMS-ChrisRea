@@ -1,12 +1,14 @@
 package com.qa.controller;
 
+import java.util.List;
+
 public interface CrudController<T> {
     
-    void readAll();
+    List<T> readAll();
+    
+    T create();
      
-    void create();
-     
-    void update();
+    T update();
      
     void delete();
 

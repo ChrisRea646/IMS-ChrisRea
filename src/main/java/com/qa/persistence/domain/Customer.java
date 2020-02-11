@@ -2,47 +2,38 @@ package com.qa.persistence.domain;
 
 public class Customer{
 
-	private Long id;
-	private String firstName;
-	private String surname;
+	private int id;
+	private String name;
 	
-	public Customer(String firstName, String surname) {
-		this.firstName = firstName;
-		this.surname = surname;
+	public Customer(String name2) {
+		this.name = name2;
 	}
 
-	public Customer(Long id, String firstName, String surname) {
-		this.id = id;
-		this.firstName = firstName;
-		this.surname = surname;
+	public Customer(int id2, String name) {
+		this.id = id2;
+		this.name = name;
 	}
 	
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
-	public String getFirstName() {
-		return firstName;
+	public String getname() {
+		return name;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-
-	public String getSurname() {
-		return surname;
-	}
-
-	public void setSurname(String surname) {
-		this.surname = surname;
+	public void name(String name) {
+		this.name = name;
 	}
 	
 	public String toString() {
-		return "id:" + id + " first name:" + firstName + " surname:" + surname;
+		return "id:" + id + "Name:" + name;
 	}
+
+
 
 }
