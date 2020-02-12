@@ -3,7 +3,7 @@ package com.qa.utils;
 public class Config {
 	public static String username;
 	public static String password;
-	public final static String url = "jdbc:mysql://localhost:3306/ims";
+	public static String url = "jdbc:mysql://35.189.105.102:3306/yugioh";
 
 	public String getUsername() {
 		return username;
