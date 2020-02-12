@@ -37,11 +37,11 @@ public class Ims {
 		
 		switch (domain) {
 		case CUSTOMER:
-			CustomerController customerController = new CustomerController(new CustomerServices(new CustomerDaoMysql()));
+			CustomerController customerController = new CustomerController(new CustomerServices(new CustomerDaoMysql(username, password)));
 			doAction(customerController, action);
 			break;
 		case ITEM:
-			ItemController itemController = new ItemController(new ItemServices(new ItemDaoMysql()));
+			ItemController itemController = new ItemController(new ItemServices(new ItemDaoMysql(username, password)));
 			doAction(itemController, action);
 			break;
 		case ORDER:
