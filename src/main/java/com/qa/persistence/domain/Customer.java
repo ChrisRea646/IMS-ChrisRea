@@ -31,7 +31,7 @@ public class Customer{
 	}
 	
 	public String toString() {
-		return "id:" + id + "Name:" + name;
+		return "id:" + id + " | Name:" + name;
 	}
 
 

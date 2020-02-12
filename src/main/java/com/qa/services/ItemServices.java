@@ -13,21 +13,15 @@ public class ItemServices implements CrudServices<Item> {
 		this.itemDao = itemDao;
 	}
 
-	@Override
 	public List<Item> readAll() {
-		// TODO Auto-generated method stub
 		return itemDao.readAll();
 	}
 
-	@Override
 	public Item create(Item item) {
-		// TODO Auto-generated method stub
 		return itemDao.create(item);
 	}
 
-	@Override
 	public Item update(Item item) {
-		// TODO Auto-generated method stub
 		return itemDao.update(item);
 	}
 

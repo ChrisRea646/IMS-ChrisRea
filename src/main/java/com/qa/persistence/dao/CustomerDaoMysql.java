@@ -25,6 +25,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 	}
 	
 	public List<Customer> readAll() {
+		
 		ArrayList<Customer> customers = new ArrayList<Customer>();
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
 				Config.username, Config.password)) {
@@ -48,7 +49,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 			try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
 					Config.username, Config.password);
 					Statement statement = connection.createStatement();
-					ResultSet resultSet = statement.executeQuery("SELECT FROM customers ORDER BY id DESC LIMIT 1");) {
+					ResultSet resultSet = statement.executeQuery("SELECT FROM Customers ORDER BY id DESC LIMIT 1");) {
 				resultSet.next();
 				return customerFromResultSet(resultSet);
 			} catch (Exception e) {
@@ -88,17 +89,23 @@ public class CustomerDaoMysql implements Dao<Customer> {
 
 	}
 
-	public void delete(String id) {
+	public void delete(int id) {
 		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
 				Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("DELETE FROM Customers WHERE Customer_ID = '" + id + " ';");
+			
 		} catch (Exception e) {
+			
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
 
 		}
 
 	}
+
+
+		
+	
 
 }

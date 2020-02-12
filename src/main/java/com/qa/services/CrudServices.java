@@ -10,7 +10,7 @@ public interface CrudServices<T> {
      
     T update(T t);
     
-    void delete(String id);
+    void delete(int id);
 
 
 
