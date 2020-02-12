@@ -37,8 +37,8 @@ public class ItemDaoMysql implements Dao<Item> {
 
 		ArrayList<Item> items = new ArrayList<Item>();
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
-			ResultSet resultSet = statement.executeQuery("select * from Cards");
+			statement = connection.createStatement();
+			resultSet = statement.executeQuery("select * from Cards");
 			while (resultSet.next()) {
 				int id = resultSet.getInt("Card_ID");
 				String name = resultSet.getString("Card_Name");
@@ -57,9 +57,9 @@ public class ItemDaoMysql implements Dao<Item> {
 	}
 
 	public Item readLatest() {
-		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password);
-				Statement statement = connection.createStatement();
-				ResultSet resultSet = statement.executeQuery("SELECT FROM Cards ORDER BY id DESC LIMIT 1");) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
+				statement = connection.createStatement();
+				resultSet = statement.executeQuery("SELECT FROM Cards ORDER BY id DESC LIMIT 1");
 			resultSet.next();
 			return itemFromResultSet(resultSet);
 		} catch (Exception e) {
@@ -73,7 +73,7 @@ public class ItemDaoMysql implements Dao<Item> {
 
 	public Item create(Item item) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 			statement.executeUpdate("insert into Cards(Card_ID,Card_Name,Card_Cost) values ('" + item.getId() + "','"
 					+ item.getCard() + "','" + item.getCardCost() + "')");
 
@@ -89,7 +89,7 @@ public class ItemDaoMysql implements Dao<Item> {
 
 	public Item update(Item item) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 			statement.executeUpdate(
 					"UPDATE Cards SET Card_Cost = '" + item.getCardCost() + "' where Card_ID = " + item.getId());
 		} catch (Exception e) {
@@ -97,7 +97,6 @@ public class ItemDaoMysql implements Dao<Item> {
 			LOGGER.error(e.getMessage());
 		} finally {
 			Utils.close(statement, resultSet);
-
 		}
 		return item;
 
@@ -105,7 +104,7 @@ public class ItemDaoMysql implements Dao<Item> {
 
 	public void delete(int id) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 			statement.executeUpdate("DELETE FROM Cards WHERE Card_ID = '" + id + " ';");
 
 		} catch (Exception e) {

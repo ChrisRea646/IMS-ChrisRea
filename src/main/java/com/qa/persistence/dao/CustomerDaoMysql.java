@@ -57,9 +57,9 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		
 	}
 		public Customer readLatest() {
-			try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password);
-					Statement statement = connection.createStatement();
-					ResultSet resultSet = statement.executeQuery("SELECT FROM Customers ORDER BY id DESC LIMIT 1");) {
+			try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
+					statement = connection.createStatement();
+					resultSet = statement.executeQuery("SELECT FROM Customers ORDER BY id DESC LIMIT 1");
 				resultSet.next();
 				return customerFromResultSet(resultSet);
 			} catch (Exception e) {
@@ -74,7 +74,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 
 	public Customer create(Customer customer) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 			statement.executeUpdate("insert into Customers(Customer_Name) values('" + customer.getname() + "')");
 			
 		} catch (Exception e) {
@@ -89,7 +89,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 
 	public Customer update(Customer customer) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 			statement.executeUpdate("UPDATE Customers SET Customer_Name = '" + customer.getname()
 					+ "' where Customer_Id = " + customer.getId());
 		} catch (Exception e) {
@@ -105,7 +105,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 
 	public void delete(int id) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 			statement.executeUpdate("DELETE FROM Customers WHERE Customer_ID = '" + id + " ';");
 			
 		} catch (Exception e) {
