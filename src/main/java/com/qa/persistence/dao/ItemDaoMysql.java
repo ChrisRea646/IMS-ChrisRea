@@ -13,22 +13,23 @@ import com.qa.controller.ItemController;
 
 import com.qa.persistence.domain.Item;
 import com.qa.utils.Config;
+import com.qa.utils.Utils;
 
 public class ItemDaoMysql implements Dao<Item> {
-	
-	public static final Logger LOGGER = Logger.getLogger(ItemController.class);
-	
 
-	
+	public static final Logger LOGGER = Logger.getLogger(ItemController.class);
+	private Statement statement = null;
+	private ResultSet resultSet = null;
+
 	Item itemFromResultSet(ResultSet resultSet) throws SQLException {
-			int id = resultSet.getInt("Card_ID");
-			String card = resultSet.getString("Card_Name");
-			double cardCost = resultSet.getDouble("Card_Cost");
-			return new Item(id, card, cardCost);
-		}
-	
+		int id = resultSet.getInt("Card_ID");
+		String card = resultSet.getString("Card_Name");
+		double cardCost = resultSet.getDouble("Card_Cost");
+		return new Item(id, card, cardCost);
+	}
+
 	public List<Item> readAll() {
-		
+
 		ArrayList<Item> items = new ArrayList<Item>();
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
@@ -43,9 +44,11 @@ public class ItemDaoMysql implements Dao<Item> {
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
+		} finally {
+			Utils.close(statement, resultSet);
 
 		}
-		return items;	
+		return items;
 	}
 
 	public Item readLatest() {
@@ -57,19 +60,23 @@ public class ItemDaoMysql implements Dao<Item> {
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
+		} finally {
+			Utils.close(statement, resultSet);
 		}
 		return null;
 	}
-	
+
 	public Item create(Item item) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
-			statement.executeUpdate("insert into Cards(Card_ID,Card_Name,Card_Cost) values ('" + item.getId() 
-					+"','"+item.getCard()+"','"+ item.getCardCost() + "')");
-			
+			statement.executeUpdate("insert into Cards(Card_ID,Card_Name,Card_Cost) values ('" + item.getId() + "','"
+					+ item.getCard() + "','" + item.getCardCost() + "')");
+
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
+		} finally {
+			Utils.close(statement, resultSet);
 
 		}
 		return item;
@@ -78,11 +85,13 @@ public class ItemDaoMysql implements Dao<Item> {
 	public Item update(Item item) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
-			statement.executeUpdate("UPDATE Cards SET Card_Cost = '" + item.getCardCost()
-					+ "' where Card_ID = " + item.getId());
+			statement.executeUpdate(
+					"UPDATE Cards SET Card_Cost = '" + item.getCardCost() + "' where Card_ID = " + item.getId());
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
+		} finally {
+			Utils.close(statement, resultSet);
 
 		}
 		return item;
@@ -93,13 +102,15 @@ public class ItemDaoMysql implements Dao<Item> {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("DELETE FROM Cards WHERE Card_ID = '" + id + " ';");
-			
+
 		} catch (Exception e) {
-			
+
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
+		} finally {
+			Utils.close(statement, resultSet);
 
 		}
-	
+
 	}
 }
