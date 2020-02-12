@@ -18,6 +18,10 @@ public class ItemDaoMysql implements Dao<Item> {
 	
 	public static final Logger LOGGER = Logger.getLogger(ItemController.class);
 	
+	public ItemDaoMysql(String username, String password) {
+		Config.username = username;
+		Config.password = password;
+	}
 
 	
 	Item itemFromResultSet(ResultSet resultSet) throws SQLException {

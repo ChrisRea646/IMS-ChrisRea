@@ -18,7 +18,11 @@ import com.qa.utils.Config;
 public class CustomerDaoMysql implements Dao<Customer> {
 
 	public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
-
+	
+	public CustomerDaoMysql(String username, String password) {
+		Config.username = username;
+		Config.password = password;
+	}
 	
 	Customer customerFromResultSet(ResultSet resultSet) throws SQLException {
 		int id = resultSet.getInt("id");
