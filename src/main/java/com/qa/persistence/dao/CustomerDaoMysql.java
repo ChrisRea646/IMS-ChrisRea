@@ -27,6 +27,8 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		Config.password = password;
 	}
 	
+
+	
 	Customer customerFromResultSet(ResultSet resultSet) throws SQLException {
 		int id = resultSet.getInt("Customer_ID");
 		String name = resultSet.getString("Customer_Name");
