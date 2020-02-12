@@ -39,8 +39,8 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		
 		ArrayList<Customer> customers = new ArrayList<Customer>();
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
-			ResultSet resultSet = statement.executeQuery("select * from Customers");
+			statement = connection.createStatement();
+			resultSet = statement.executeQuery("select * from Customers");
 			while (resultSet.next()) {
 				int id = resultSet.getInt("Customer_ID");
 				String name = resultSet.getString("Customer_Name");
