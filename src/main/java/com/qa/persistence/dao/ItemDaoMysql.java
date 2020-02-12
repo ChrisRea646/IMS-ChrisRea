@@ -18,16 +18,13 @@ import com.qa.utils.Utils;
 public class ItemDaoMysql implements Dao<Item> {
 
 	public static final Logger LOGGER = Logger.getLogger(ItemController.class);
-<<<<<<< HEAD
 	private Statement statement = null;
 	private ResultSet resultSet = null;
-=======
 	
 	public ItemDaoMysql(String username, String password) {
 		Config.username = username;
 		Config.password = password;
 	}
->>>>>>> c3de3138f46cc7b08775d68701bacf0308731b00
 
 	Item itemFromResultSet(ResultSet resultSet) throws SQLException {
 		int id = resultSet.getInt("Card_ID");
