@@ -14,9 +14,11 @@ import com.qa.controller.CustomerController;
 import com.qa.persistence.domain.Customer;
 import com.qa.utils.Config;
 
+
 public class CustomerDaoMysql implements Dao<Customer> {
 
 	public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
+
 	
 	Customer customerFromResultSet(ResultSet resultSet) throws SQLException {
 		int id = resultSet.getInt("id");
@@ -27,8 +29,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 	public List<Customer> readAll() {
 		
 		ArrayList<Customer> customers = new ArrayList<Customer>();
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-				Config.username, Config.password)) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			ResultSet resultSet = statement.executeQuery("select * from Customers");
 			while (resultSet.next()) {
@@ -46,8 +47,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		
 	}
 		public Customer readLatest() {
-			try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-					Config.username, Config.password);
+			try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password);
 					Statement statement = connection.createStatement();
 					ResultSet resultSet = statement.executeQuery("SELECT FROM Customers ORDER BY id DESC LIMIT 1");) {
 				resultSet.next();
@@ -61,8 +61,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 	
 
 	public Customer create(Customer customer) {
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-				Config.username, Config.password)) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("insert into Customers(Customer_Name) values('" + customer.getname() + "')");
 			
@@ -75,8 +74,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 	}
 
 	public Customer update(Customer customer) {
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-				Config.username, Config.password)) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("UPDATE Customers SET Customer_Name = '" + customer.getname()
 					+ "' where Customer_Id = " + customer.getId());
@@ -90,8 +88,7 @@ public class CustomerDaoMysql implements Dao<Customer> {
 	}
 
 	public void delete(int id) {
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-				Config.username, Config.password)) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("DELETE FROM Customers WHERE Customer_ID = '" + id + " ';");
 			

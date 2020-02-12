@@ -11,12 +11,21 @@ import com.qa.persistence.dao.ItemDaoMysql;
 import com.qa.persistence.domain.Domain;
 import com.qa.services.CustomerServices;
 import com.qa.services.ItemServices;
+import com.qa.utils.Utils;
 
 public class Ims {
 	
 	public static final Logger LOGGER = Logger.getLogger(Ims.class);
+		
 
 	public void imsSystem() {
+		
+		LOGGER.info("What is your username");
+		String username = Utils.getInput();
+		LOGGER.info("What is your password");
+		String password = Utils.getInput();
+		
+		
 		LOGGER.info("Which entity would you like to use?");
 		Domain.printDomains();
 		
@@ -30,9 +39,11 @@ public class Ims {
 		case CUSTOMER:
 			CustomerController customerController = new CustomerController(new CustomerServices(new CustomerDaoMysql()));
 			doAction(customerController, action);
+			break;
 		case ITEM:
 			ItemController itemController = new ItemController(new ItemServices(new ItemDaoMysql()));
 			doAction(itemController, action);
+			break;
 		case ORDER:
 			break;
 		case STOP:

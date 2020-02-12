@@ -3,6 +3,10 @@ package com.qa.utils;
 import java.util.Scanner;
 
 public class Utils {
+	
+	private Utils () {
+		
+	}
 
 	public static String getInput() {
 		@SuppressWarnings("resource")

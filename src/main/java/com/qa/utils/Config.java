@@ -1,8 +1,16 @@
 package com.qa.utils;
 
 public class Config {
+	public static String username;
+	public static String password;
+	public final static String url = "jdbc:mysql://localhost:3306/ims";
 
-	public static final String username = "root";
-	public static final String password = "seven";
+	public String getUsername() {
+		return username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
 
 }

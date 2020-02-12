@@ -15,7 +15,10 @@ import com.qa.persistence.domain.Item;
 import com.qa.utils.Config;
 
 public class ItemDaoMysql implements Dao<Item> {
+	
 	public static final Logger LOGGER = Logger.getLogger(ItemController.class);
+	
+
 	
 	Item itemFromResultSet(ResultSet resultSet) throws SQLException {
 			int id = resultSet.getInt("Card_ID");
@@ -27,8 +30,7 @@ public class ItemDaoMysql implements Dao<Item> {
 	public List<Item> readAll() {
 		
 		ArrayList<Item> items = new ArrayList<Item>();
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-				Config.username, Config.password)) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			ResultSet resultSet = statement.executeQuery("select * from Cards");
 			while (resultSet.next()) {
@@ -47,8 +49,7 @@ public class ItemDaoMysql implements Dao<Item> {
 	}
 
 	public Item readLatest() {
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-				Config.username, Config.password);
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password);
 				Statement statement = connection.createStatement();
 				ResultSet resultSet = statement.executeQuery("SELECT FROM Cards ORDER BY id DESC LIMIT 1");) {
 			resultSet.next();
@@ -61,8 +62,7 @@ public class ItemDaoMysql implements Dao<Item> {
 	}
 	
 	public Item create(Item item) {
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-				Config.username, Config.password)) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("insert into Cards(Card_ID,Card_Name,Card_Cost) values ('" + item.getId() 
 					+"','"+item.getCard()+"','"+ item.getCardCost() + "')");
@@ -76,8 +76,7 @@ public class ItemDaoMysql implements Dao<Item> {
 	}
 
 	public Item update(Item item) {
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-				Config.username, Config.password)) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("UPDATE Cards SET Card_Cost = '" + item.getCardCost()
 					+ "' where Card_ID = " + item.getId());
@@ -91,8 +90,7 @@ public class ItemDaoMysql implements Dao<Item> {
 	}
 
 	public void delete(int id) {
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://35.189.105.102:3306/yugioh",
-				Config.username, Config.password)) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			Statement statement = connection.createStatement();
 			statement.executeUpdate("DELETE FROM Cards WHERE Card_ID = '" + id + " ';");
 			
