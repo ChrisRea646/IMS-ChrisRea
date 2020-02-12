@@ -17,13 +17,22 @@ import com.qa.utils.Utils;
 public class CustomerDaoMysql implements Dao<Customer> {
 
 	public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
+<<<<<<< HEAD
 	private Statement statement = null;
 	private ResultSet resultSet = null;
 
 
+=======
+	
+	public CustomerDaoMysql(String username, String password) {
+		Config.username = username;
+		Config.password = password;
+	}
+	
+>>>>>>> c3de3138f46cc7b08775d68701bacf0308731b00
 	Customer customerFromResultSet(ResultSet resultSet) throws SQLException {
-		int id = resultSet.getInt("id");
-		String name = resultSet.getString("name");
+		int id = resultSet.getInt("Customer_ID");
+		String name = resultSet.getString("Customer_Name");
 		return new Customer(id, name);
 	}
 	
