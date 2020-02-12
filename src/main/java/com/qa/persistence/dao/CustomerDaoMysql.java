@@ -7,19 +7,20 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.log4j.Logger;
-
 import com.qa.controller.CustomerController;
 import com.qa.persistence.domain.Customer;
 import com.qa.utils.Config;
+import com.qa.utils.Utils;
 
 
 public class CustomerDaoMysql implements Dao<Customer> {
 
 	public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
+	private Statement statement = null;
+	private ResultSet resultSet = null;
 
-	
+
 	Customer customerFromResultSet(ResultSet resultSet) throws SQLException {
 		int id = resultSet.getInt("id");
 		String name = resultSet.getString("name");
@@ -41,7 +42,8 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
-
+		}finally {
+			Utils.close(statement, resultSet);
 		}
 		return customers;
 		
@@ -55,6 +57,8 @@ public class CustomerDaoMysql implements Dao<Customer> {
 			} catch (Exception e) {
 				LOGGER.debug(e.getStackTrace());
 				LOGGER.error(e.getMessage());
+			}finally {
+				Utils.close(statement, resultSet);
 			}
 			return null;
 		}
@@ -68,6 +72,8 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
+		}finally {
+			Utils.close(statement, resultSet);
 
 		}
 		return customer;
@@ -81,6 +87,8 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
+		}finally {
+			Utils.close(statement, resultSet);
 
 		}
 		return customer;
@@ -96,6 +104,8 @@ public class CustomerDaoMysql implements Dao<Customer> {
 			
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
+		}finally {
+			Utils.close(statement, resultSet);
 
 		}
 
