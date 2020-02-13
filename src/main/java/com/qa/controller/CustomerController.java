@@ -14,19 +14,20 @@ import com.qa.utils.Utils;
  */
 public class CustomerController implements CrudController<Customer> {
 
-	public static final Logger LOGGER = Logger.getLogger(CustomerController.class); 
+	public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
 
 	private CrudServices<Customer> customerService;
 
 	public CustomerController(CrudServices<Customer> customerService) {
 		this.customerService = customerService;
 	}
+
 	String getInput() {
 		return Utils.getInput();
 	}
-	
+
 	/**
-	 * Reads all customers to the logger 
+	 * Reads all customers to the logger
 	 */
 	public List<Customer> readAll() {
 		for (Customer customer : customerService.readAll()) {
@@ -40,40 +41,36 @@ public class CustomerController implements CrudController<Customer> {
 	 */
 	public Customer create() {
 		LOGGER.info("Please enter a Name");
-		String name = Utils.getInput();
-		customerService.create(new Customer(name));
+		String name = getInput();
 		LOGGER.info("Customer created");
-		return null;
+		return customerService.create(new Customer(name));
 	}
+
 	/**
 	 * Updates an existing customer by taking in user input
 	 */
 	public Customer update() {
 		LOGGER.info("Please enter the id of the customer you would like to update");
-		String stringId = Utils.getInput();
+		String stringId = getInput();
 		int id = Integer.parseInt(stringId);
 		LOGGER.info("Please enter a name");
-		String name = Utils.getInput();
+		String name = getInput();
 		Customer customer = customerService.update(new Customer(id, name));
 		LOGGER.info("Customer Updated");
 		return customer;
 
 	}
+
 	/**
 	 * Deletes an existing customer by the id of the customer
 	 */
 	public void delete() {
 		LOGGER.info("Please enter the Id of the customer you want to delete");
-		String stringId = Utils.getInput();
+		String stringId = getInput();
 		int id = Integer.parseInt(stringId);
 		customerService.delete(id);
 		LOGGER.info("Customer deleted");
 
 	}
-
-
-
-
-
 
 }
