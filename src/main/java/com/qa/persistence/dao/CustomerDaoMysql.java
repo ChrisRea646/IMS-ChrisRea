@@ -14,7 +14,7 @@ import com.qa.utils.Config;
 import com.qa.utils.Utils;
 
 
-public class CustomerDaoMysql implements Dao<Customer> {
+public class CustomerDaoMysql implements Dao<Customer> { 
 
 	public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
 	private Statement statement = null;
@@ -34,13 +34,18 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		String name = resultSet.getString("Customer_Name");
 		return new Customer(id, name);
 	}
-	
+
+	/**
+	 * Reads all customers from the database
+	 * 
+	 * @return A list of customers
+	 */
 	public List<Customer> readAll() {
 		
 		ArrayList<Customer> customers = new ArrayList<Customer>();
-		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
-			ResultSet resultSet = statement.executeQuery("select * from Customers");
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) { 
+			statement = connection.createStatement();
+			resultSet = statement.executeQuery("select * from Customers");
 			while (resultSet.next()) {
 				int id = resultSet.getInt("Customer_ID");
 				String name = resultSet.getString("Customer_Name");
@@ -57,9 +62,9 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		
 	}
 		public Customer readLatest() {
-			try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password);
-					Statement statement = connection.createStatement();
-					ResultSet resultSet = statement.executeQuery("SELECT FROM Customers ORDER BY id DESC LIMIT 1");) {
+			try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
+					statement = connection.createStatement();
+					resultSet = statement.executeQuery("SELECT FROM Customers ORDER BY id DESC LIMIT 1");
 				resultSet.next();
 				return customerFromResultSet(resultSet);
 			} catch (Exception e) {
@@ -71,10 +76,15 @@ public class CustomerDaoMysql implements Dao<Customer> {
 			return null;
 		}
 	
-
+	/**
+	 * Creates a customer in the database
+	 * 
+	 * @param customer - takes in a customer object. id will be ignored
+	 */
+		
 	public Customer create(Customer customer) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 			statement.executeUpdate("insert into Customers(Customer_Name) values('" + customer.getname() + "')");
 			
 		} catch (Exception e) {
@@ -87,9 +97,16 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		return customer;
 	}
 
+	/**
+	 * Updates a customer in the database
+	 * 
+	 * @param customer - takes in a customer object, the id field will be used to
+	 *                 update that customer in the database
+	 * @return
+	 */
 	public Customer update(Customer customer) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 			statement.executeUpdate("UPDATE Customers SET Customer_Name = '" + customer.getname()
 					+ "' where Customer_Id = " + customer.getId());
 		} catch (Exception e) {
@@ -103,9 +120,14 @@ public class CustomerDaoMysql implements Dao<Customer> {
 
 	}
 
+	/**
+	 * Deletes a customer in the database
+	 * 
+	 * @param id - id of the customer
+	 */
 	public void delete(int id) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
-			Statement statement = connection.createStatement();
+			statement = connection.createStatement();
 			statement.executeUpdate("DELETE FROM Customers WHERE Customer_ID = '" + id + " ';");
 			
 		} catch (Exception e) {

@@ -1,19 +1,19 @@
 package com.qa.persistence.domain;
 
-public class Customer{
+public class Customer {
 
 	private int id;
 	private String name;
-	
+
 	public Customer(String name2) {
 		this.name = name2;
 	}
 
-	public Customer(int id2, String name) {
-		this.id = id2;
+	public Customer(int L, String name) {
+		this.id = L;
 		this.name = name;
 	}
-	
+
 	public int getId() {
 		return id;
 	}
@@ -29,11 +29,9 @@ public class Customer{
 	public void name(String name) {
 		this.name = name;
 	}
-	
+
 	public String toString() {
 		return "id:" + id + " | Name:" + name;
 	}
-
-
 
 }

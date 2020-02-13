@@ -8,6 +8,10 @@ import com.qa.persistence.domain.Item;
 import com.qa.services.CrudServices;
 import com.qa.utils.Utils;
 
+/**
+ * Takes in item details for CRUD functionality
+ *
+ */
 public class ItemController implements CrudController<Item> {
 	
 	public static final Logger LOGGER = Logger.getLogger(ItemController.class);
@@ -16,7 +20,10 @@ public class ItemController implements CrudController<Item> {
 
 	public ItemController(CrudServices<Item> itemService) {
 		this.itemService = itemService;
-		
+
+	/**
+	 * Reads all items to the logger
+	 */
 	}
 	public List<Item> readAll() {
 		for (Item item : itemService.readAll()) {
@@ -25,6 +32,9 @@ public class ItemController implements CrudController<Item> {
 		return null;
 	}
 
+	/**
+	 * Creates an item by taking in a user input
+	 */
 	public Item create() {
 		LOGGER.info("Please enter a card ID:");
 		String stringID = Utils.getInput();
@@ -39,6 +49,9 @@ public class ItemController implements CrudController<Item> {
 		return null;
 	}
 
+	/**
+	 * Updates an item using customer input
+	 */
 	public Item update() {
 		LOGGER.info("Please enter the id of the card you would like to update");
 		String stringId = Utils.getInput();
@@ -48,13 +61,15 @@ public class ItemController implements CrudController<Item> {
 		LOGGER.info("Please enter a cost");
 		String stringCost = Utils.getInput();
 		double cost = Double.parseDouble(stringCost);
-		Item item = itemService.update(new Item(id, name, cost));
+		Item item = itemService.update(new Item(id, name, cost)); 
 		LOGGER.info("Card Updated");
 		return item;
 
 	}
 
-
+	/**
+	 * Deletes an item by taking in the id of said item
+	 */
 	public void delete() {
 		LOGGER.info("Please enter the Id of the card you want to delete");
 		String stringId = Utils.getInput();

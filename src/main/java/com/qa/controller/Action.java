@@ -2,6 +2,11 @@ package com.qa.controller;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Action is a collection of commands which are used to determine the type of
+ * function to apply to an entity.
+ *
+ */
 import com.qa.utils.Utils;
 
 public enum Action {
@@ -10,24 +15,37 @@ public enum Action {
 	UPDATE("To change an item already in the database"), DELETE("To remove an item from the database"),
 	RETURN("To return to domain selection");
 
-	public static final Logger LOGGER = Logger.getLogger(Action.class);
+	public static final Logger LOGGER = Logger.getLogger(Action.class); 
 
 	private String description;
 
 	Action(String description) { 
 		this.description = description;
 	}
+	
+	/**
+	 * Describes the action
+	 */
 
 	public String description() {
 		return this.name() + ": " + this.description;
 	}
-
+	
+	/**
+	 * Prints out all posible actions
+	 */
 	public static void printActions() {
 		for (Action action : Action.values()) {
 			LOGGER.info(action.description());
 		}
 	}
-
+	
+	/**
+	 * Gets an action based on a users input. If user enters a non-specified
+	 * enumeration, it will ask for another input.
+	 * 
+	 * @return Action type
+	 */
 	public static Action getAction() {
 		Action action;
 		while (true) {

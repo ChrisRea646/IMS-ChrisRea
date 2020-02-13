@@ -8,16 +8,26 @@ import com.qa.persistence.domain.Customer;
 import com.qa.services.CrudServices;
 import com.qa.utils.Utils;
 
+/**
+ * Takes in customer details for CRUD functionality
+ *
+ */
 public class CustomerController implements CrudController<Customer> {
 
-	public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
+	public static final Logger LOGGER = Logger.getLogger(CustomerController.class); 
 
 	private CrudServices<Customer> customerService;
 
 	public CustomerController(CrudServices<Customer> customerService) {
 		this.customerService = customerService;
 	}
-
+	String getInput() {
+		return Utils.getInput();
+	}
+	
+	/**
+	 * Reads all customers to the logger 
+	 */
 	public List<Customer> readAll() {
 		for (Customer customer : customerService.readAll()) {
 			LOGGER.info(customer.toString());
@@ -25,6 +35,9 @@ public class CustomerController implements CrudController<Customer> {
 		return null;
 	}
 
+	/**
+	 * Creates a customer by taking in user input
+	 */
 	public Customer create() {
 		LOGGER.info("Please enter a Name");
 		String name = Utils.getInput();
@@ -32,7 +45,9 @@ public class CustomerController implements CrudController<Customer> {
 		LOGGER.info("Customer created");
 		return null;
 	}
-
+	/**
+	 * Updates an existing customer by taking in user input
+	 */
 	public Customer update() {
 		LOGGER.info("Please enter the id of the customer you would like to update");
 		String stringId = Utils.getInput();
@@ -44,7 +59,9 @@ public class CustomerController implements CrudController<Customer> {
 		return customer;
 
 	}
-
+	/**
+	 * Deletes an existing customer by the id of the customer
+	 */
 	public void delete() {
 		LOGGER.info("Please enter the Id of the customer you want to delete");
 		String stringId = Utils.getInput();
@@ -53,6 +70,10 @@ public class CustomerController implements CrudController<Customer> {
 		LOGGER.info("Customer deleted");
 
 	}
+
+
+
+
 
 
 }
