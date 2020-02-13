@@ -15,7 +15,7 @@ import com.qa.persistence.domain.Item;
 import com.qa.utils.Config;
 import com.qa.utils.Utils;
 
-public class ItemDaoMysql implements Dao<Item> {
+public class ItemDaoMysql implements Dao<Item> { 
 
 	public static final Logger LOGGER = Logger.getLogger(ItemController.class);
 	private Statement statement = null;
@@ -33,6 +33,11 @@ public class ItemDaoMysql implements Dao<Item> {
 		return new Item(id, card, cardCost);
 	}
 
+	/**
+	 * Reads all items from the database
+	 * 
+	 * @return A list of customers
+	 */
 	public List<Item> readAll() {
 
 		ArrayList<Item> items = new ArrayList<Item>();
@@ -71,6 +76,11 @@ public class ItemDaoMysql implements Dao<Item> {
 		return null;
 	}
 
+	/**
+	 * Creates n item in the database
+	 * 
+	 * @param item - takes in an item object.
+	 */
 	public Item create(Item item) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			statement = connection.createStatement();
@@ -81,12 +91,18 @@ public class ItemDaoMysql implements Dao<Item> {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
 		} finally {
-			Utils.close(statement, resultSet);
+			Utils.close(statement, resultSet); 
 
 		}
 		return item;
 	}
-
+	/**
+	 * Updates an item in the database
+	 * 
+	 * @param item - takes in an item object, the id field will be used to
+	 *                 update that item in the database
+	 * @return
+	 */
 	public Item update(Item item) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			statement = connection.createStatement();
@@ -101,7 +117,11 @@ public class ItemDaoMysql implements Dao<Item> {
 		return item;
 
 	}
-
+	/**
+	 * Deletes an item from the database
+	 * 
+	 * @param id - id of the item
+	 */
 	public void delete(int id) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			statement = connection.createStatement();

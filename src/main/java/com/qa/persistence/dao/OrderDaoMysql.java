@@ -7,11 +7,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.log4j.Logger;
-
 import com.qa.controller.OrderController;
-import com.qa.persistence.domain.Item;
 import com.qa.persistence.domain.Order;
 import com.qa.utils.Config;
 import com.qa.utils.Utils;
@@ -25,7 +22,7 @@ public class OrderDaoMysql implements Dao<Order> {
 	public OrderDaoMysql(String username, String password) {
 		Config.username = username;
 		Config.password = password;
-	}
+	} 
 	Order orderFromResultSet(ResultSet resultSet) throws SQLException {
 		int num = resultSet.getInt("Order_Num");
 		double total = resultSet.getDouble("Order_Total");

@@ -14,7 +14,7 @@ import com.qa.utils.Config;
 import com.qa.utils.Utils;
 
 
-public class CustomerDaoMysql implements Dao<Customer> {
+public class CustomerDaoMysql implements Dao<Customer> { 
 
 	public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
 	private Statement statement = null;
@@ -34,11 +34,16 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		String name = resultSet.getString("Customer_Name");
 		return new Customer(id, name);
 	}
-	
+
+	/**
+	 * Reads all customers from the database
+	 * 
+	 * @return A list of customers
+	 */
 	public List<Customer> readAll() {
 		
 		ArrayList<Customer> customers = new ArrayList<Customer>();
-		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
+		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) { 
 			statement = connection.createStatement();
 			resultSet = statement.executeQuery("select * from Customers");
 			while (resultSet.next()) {
@@ -71,7 +76,12 @@ public class CustomerDaoMysql implements Dao<Customer> {
 			return null;
 		}
 	
-
+	/**
+	 * Creates a customer in the database
+	 * 
+	 * @param customer - takes in a customer object. id will be ignored
+	 */
+		
 	public Customer create(Customer customer) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			statement = connection.createStatement();
@@ -87,6 +97,13 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		return customer;
 	}
 
+	/**
+	 * Updates a customer in the database
+	 * 
+	 * @param customer - takes in a customer object, the id field will be used to
+	 *                 update that customer in the database
+	 * @return
+	 */
 	public Customer update(Customer customer) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			statement = connection.createStatement();
@@ -103,6 +120,11 @@ public class CustomerDaoMysql implements Dao<Customer> {
 
 	}
 
+	/**
+	 * Deletes a customer in the database
+	 * 
+	 * @param id - id of the customer
+	 */
 	public void delete(int id) {
 		try (Connection connection = DriverManager.getConnection(Config.url, Config.username, Config.password)) {
 			statement = connection.createStatement();

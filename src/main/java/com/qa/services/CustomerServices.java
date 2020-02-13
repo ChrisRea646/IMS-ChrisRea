@@ -26,9 +26,9 @@ public class CustomerServices implements CrudServices<Customer> {
 		return customerDao.update(customer);
 	}
 
-	public void delete(int id) {
-		customerDao.delete(id);
-	}
+	public void delete(int l) {
+		customerDao.delete(l);
+	} 
 
 
 		
