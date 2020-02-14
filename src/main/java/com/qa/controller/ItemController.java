@@ -78,5 +78,8 @@ public class ItemController implements CrudController<Item> {
 		LOGGER.info("Card deleted");
 
 	}
+	String getInput() {
+		return Utils.getInput();
+	}
 
 }

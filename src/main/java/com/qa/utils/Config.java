@@ -10,7 +10,7 @@ public class Config {
 	}
 
 	public String getPassword() {
-		return password;
+		return password; 
 	}
 
 }
