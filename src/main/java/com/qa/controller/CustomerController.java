@@ -23,7 +23,7 @@ public class CustomerController implements CrudController<Customer> {
 	}
 
 	String getInput() {
-		return Utils.getInput();
+		return Utils.getInput(); 
 	}
  
 	/**

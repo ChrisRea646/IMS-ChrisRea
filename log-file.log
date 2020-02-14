@@ -1,0 +1,873 @@
+2020-02-11 10:39:00 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 10:39:00 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 10:39:00 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 10:39:00 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 10:39:00 INFO  Domain:28 - STOP: To close the application
+2020-02-11 10:39:09 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 10:39:09 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 10:39:09 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 10:39:09 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 10:39:09 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 10:39:09 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 10:39:16 INFO  CustomerController:33 - Please Enter an id to update
+2020-02-11 10:39:21 INFO  CustomerController:35 - Please enter new name for that id
+2020-02-11 10:42:49 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 10:42:49 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 10:42:49 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 10:42:49 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 10:42:49 INFO  Domain:28 - STOP: To close the application
+2020-02-11 10:43:06 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 10:43:06 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 10:43:06 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 10:43:06 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 10:43:06 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 10:43:06 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 10:43:10 INFO  CustomerController:26 - Please enter a Name
+2020-02-11 10:43:19 INFO  CustomerController:29 - Customer created
+2020-02-11 10:55:30 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 10:55:30 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 10:55:30 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 10:55:30 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 10:55:30 INFO  Domain:28 - STOP: To close the application
+2020-02-11 10:55:39 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 10:55:39 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 10:55:39 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 10:55:39 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 10:55:39 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 10:55:39 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 10:55:49 INFO  CustomerController:26 - Please enter a Name
+2020-02-11 10:56:02 INFO  CustomerController:29 - Customer created
+2020-02-11 10:57:29 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 10:57:29 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 10:57:29 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 10:57:29 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 10:57:29 INFO  Domain:28 - STOP: To close the application
+2020-02-11 10:57:34 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 10:57:34 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 10:57:34 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 10:57:34 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 10:57:34 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 10:57:34 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 10:58:35 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 10:58:35 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 10:58:35 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 10:58:35 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 10:58:35 INFO  Domain:28 - STOP: To close the application
+2020-02-11 10:58:40 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 10:58:40 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 10:58:40 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 10:58:40 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 10:58:40 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 10:58:40 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 11:03:23 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 11:03:23 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 11:03:23 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 11:03:23 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 11:03:23 INFO  Domain:28 - STOP: To close the application
+2020-02-11 11:03:27 ERROR Domain:39 - Invalid selection please try again
+2020-02-11 11:03:34 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 11:03:34 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 11:03:34 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 11:03:34 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 11:03:34 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 11:03:34 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 11:03:38 INFO  CustomerController:21 - id:1Name:Chris Rea
+2020-02-11 11:03:38 INFO  CustomerController:21 - id:5Name:Chris Rea
+2020-02-11 11:10:33 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 11:10:33 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 11:10:33 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 11:10:33 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 11:10:33 INFO  Domain:28 - STOP: To close the application
+2020-02-11 11:10:38 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 11:10:38 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 11:10:38 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 11:10:38 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 11:10:38 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 11:10:38 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 11:10:43 INFO  CustomerController:26 - Please enter a Name
+2020-02-11 11:10:55 INFO  CustomerController:29 - Customer created
+2020-02-11 11:11:05 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 11:11:05 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 11:11:05 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 11:11:05 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 11:11:05 INFO  Domain:28 - STOP: To close the application
+2020-02-11 11:11:09 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 11:11:09 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 11:11:09 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 11:11:09 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 11:11:09 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 11:11:09 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 11:11:13 INFO  CustomerController:21 - id:1Name:Chris Rea
+2020-02-11 11:11:13 INFO  CustomerController:21 - id:5Name:Chris Rea
+2020-02-11 11:12:39 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 11:12:39 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 11:12:39 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 11:12:39 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 11:12:39 INFO  Domain:28 - STOP: To close the application
+2020-02-11 11:12:44 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 11:12:44 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 11:12:44 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 11:12:44 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 11:12:44 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 11:12:44 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 11:12:49 INFO  CustomerController:26 - Please enter a Name
+2020-02-11 11:12:56 INFO  CustomerController:29 - Customer created
+2020-02-11 11:13:01 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 11:13:01 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 11:13:01 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 11:13:01 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 11:13:01 INFO  Domain:28 - STOP: To close the application
+2020-02-11 11:13:08 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 11:13:08 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 11:13:08 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 11:13:08 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 11:13:08 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 11:13:08 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 11:13:10 INFO  CustomerController:21 - id:1Name:Chris Rea
+2020-02-11 11:13:10 INFO  CustomerController:21 - id:5Name:Chris Rea
+2020-02-11 11:13:10 INFO  CustomerController:21 - id:6Name:George Jamerson
+2020-02-11 11:17:32 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 11:17:32 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 11:17:32 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 11:17:32 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 11:17:32 INFO  Domain:28 - STOP: To close the application
+2020-02-11 11:51:56 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 11:51:56 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 11:51:56 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 11:51:56 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 11:51:56 INFO  Domain:28 - STOP: To close the application
+2020-02-11 11:52:03 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 11:52:03 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 11:52:03 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 11:52:03 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 11:52:03 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 11:52:03 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 11:52:09 INFO  CustomerController:33 - Please Enter an id to update
+2020-02-11 11:52:36 INFO  CustomerController:35 - Please enter new name for that id
+2020-02-11 14:12:41 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:12:41 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:12:41 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:12:41 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:12:41 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:12:46 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:12:46 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:12:46 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:12:46 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:12:46 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:12:46 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:14:36 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:14:36 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:14:36 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:14:36 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:14:36 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:14:43 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:14:43 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:14:43 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:14:43 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:14:43 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:14:43 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:14:47 INFO  CustomerController:21 - id:1Name:James Rea
+2020-02-11 14:14:47 INFO  CustomerController:21 - id:5Name:Chris Rea
+2020-02-11 14:14:47 INFO  CustomerController:21 - id:6Name:George Jamerson
+2020-02-11 14:14:55 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:14:55 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:14:55 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:14:55 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:14:55 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:14:59 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:14:59 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:14:59 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:14:59 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:14:59 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:14:59 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:15:04 ERROR Action:38 - Invalid selection please try again
+2020-02-11 14:15:08 INFO  CustomerController:26 - Please enter a Name
+2020-02-11 14:15:15 INFO  CustomerController:29 - Customer created
+2020-02-11 14:15:20 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:15:20 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:15:20 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:15:20 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:15:20 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:15:26 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:15:26 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:15:26 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:15:26 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:15:26 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:15:26 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:15:31 INFO  CustomerController:21 - id:1Name:James Rea
+2020-02-11 14:15:31 INFO  CustomerController:21 - id:5Name:Chris Rea
+2020-02-11 14:15:31 INFO  CustomerController:21 - id:6Name:George Jamerson
+2020-02-11 14:15:31 INFO  CustomerController:21 - id:7Name:Jamz Ray
+2020-02-11 14:15:45 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:15:45 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:15:45 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:15:45 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:15:45 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:15:48 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:15:48 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:15:48 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:15:48 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:15:48 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:15:48 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:15:51 INFO  CustomerController:33 - Please Enter an id to update
+2020-02-11 14:15:56 INFO  CustomerController:35 - Please enter new name for that id
+2020-02-11 14:16:03 INFO  CustomerController:38 - Customer Updated
+2020-02-11 14:16:07 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:16:07 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:16:07 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:16:07 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:16:07 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:16:11 ERROR Domain:39 - Invalid selection please try again
+2020-02-11 14:16:16 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:16:16 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:16:16 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:16:16 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:16:16 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:16:16 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:16:19 INFO  CustomerController:21 - id:1Name:James Rea
+2020-02-11 14:16:19 INFO  CustomerController:21 - id:5Name:Chris Rea
+2020-02-11 14:16:19 INFO  CustomerController:21 - id:6Name:George Jamerson
+2020-02-11 14:16:19 INFO  CustomerController:21 - id:7Name:Jamz Ray
+2020-02-11 14:16:35 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:16:35 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:16:35 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:16:35 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:16:35 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:16:53 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:16:53 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:16:53 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:16:53 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:16:53 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:16:53 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:16:57 INFO  CustomerController:44 - Please enter the Id of the customer you want to delete
+2020-02-11 14:17:01 INFO  CustomerController:47 - Customer deleted
+2020-02-11 14:17:06 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:17:06 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:17:06 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:17:06 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:17:06 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:17:09 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:17:09 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:17:09 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:17:09 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:17:09 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:17:09 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:17:12 INFO  CustomerController:21 - id:1Name:James Rea
+2020-02-11 14:17:12 INFO  CustomerController:21 - id:5Name:Chris Rea
+2020-02-11 14:17:12 INFO  CustomerController:21 - id:6Name:George Jamerson
+2020-02-11 14:17:12 INFO  CustomerController:21 - id:7Name:Jamz Ray
+2020-02-11 14:21:37 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:21:37 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:21:37 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:21:37 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:21:37 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:21:43 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:21:43 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:21:43 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:21:43 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:21:43 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:21:43 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:21:46 INFO  CustomerController:44 - Please enter the Id of the customer you want to delete
+2020-02-11 14:21:49 INFO  CustomerController:47 - Customer deleted
+2020-02-11 14:29:40 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:29:40 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:29:40 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:29:40 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:29:40 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:29:54 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:29:54 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:29:54 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:29:54 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:29:54 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:29:54 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:30:02 INFO  CustomerController:44 - Please enter the Id of the customer you want to delete
+2020-02-11 14:30:05 INFO  CustomerController:47 - Customer deleted
+2020-02-11 14:39:52 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:39:52 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:39:52 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:39:52 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:39:52 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:40:07 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:40:07 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:40:07 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:40:07 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:40:07 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:40:07 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:40:41 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:40:41 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:40:41 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:40:41 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:40:41 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:40:47 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:40:47 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:40:47 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:40:47 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:40:47 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:40:47 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:40:52 INFO  CustomerController:44 - Please enter the Id of the customer you want to delete
+2020-02-11 14:40:54 INFO  CustomerController:47 - Customer deleted
+2020-02-11 14:45:53 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:45:53 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:45:53 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:45:53 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:45:53 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:48:31 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:48:31 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:48:31 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:48:31 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:48:31 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:48:38 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:48:38 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:48:38 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:48:38 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:48:38 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:48:38 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:50:00 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 14:50:00 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 14:50:00 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 14:50:00 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 14:50:00 INFO  Domain:28 - STOP: To close the application
+2020-02-11 14:50:05 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 14:50:05 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 14:50:05 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 14:50:05 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 14:50:05 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 14:50:05 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 14:50:09 INFO  CustomerController:33 - Please Enter an id to update
+2020-02-11 14:50:16 INFO  CustomerController:35 - Please enter new name for that id
+2020-02-11 15:44:50 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 15:44:50 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 15:44:50 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 15:44:50 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 15:44:50 INFO  Domain:28 - STOP: To close the application
+2020-02-11 15:45:08 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 15:45:08 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 15:45:08 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 15:45:08 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 15:45:08 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 15:45:08 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 15:49:24 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 15:49:24 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 15:49:24 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 15:49:24 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 15:49:24 INFO  Domain:28 - STOP: To close the application
+2020-02-11 15:49:28 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 15:49:28 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 15:49:28 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 15:49:28 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 15:49:28 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 15:49:28 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 15:49:33 INFO  CustomerController:37 - Please enter the id of the customer you would like to update
+2020-02-11 15:49:41 INFO  CustomerController:40 - Please enter a name
+2020-02-11 15:49:44 ERROR CustomerController:84 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'harry where Customer_Id = 6' at line 1
+2020-02-11 15:49:44 INFO  CustomerController:43 - Customer Updated
+2020-02-11 15:55:53 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 15:55:53 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 15:55:53 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 15:55:53 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 15:55:53 INFO  Domain:28 - STOP: To close the application
+2020-02-11 15:55:57 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 15:55:57 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 15:55:57 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 15:55:57 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 15:55:57 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 15:55:57 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 15:56:01 INFO  CustomerController:37 - Please enter the id of the customer you would like to update
+2020-02-11 15:56:05 INFO  CustomerController:40 - Please enter a name
+2020-02-11 15:56:13 ERROR CustomerController:84 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Harry Potter where Customer_Id = 6' at line 1
+2020-02-11 15:56:13 INFO  CustomerController:43 - Customer Updated
+2020-02-11 16:12:35 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 16:12:35 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 16:12:35 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 16:12:35 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 16:12:35 INFO  Domain:28 - STOP: To close the application
+2020-02-11 16:12:41 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 16:12:41 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 16:12:41 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 16:12:41 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 16:12:41 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 16:12:41 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 16:12:48 INFO  CustomerController:37 - Please enter the id of the customer you would like to update
+2020-02-11 16:12:52 INFO  CustomerController:40 - Please enter a name
+2020-02-11 16:13:01 ERROR CustomerController:84 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Harry Potter where Customer_Id = 6' at line 1
+2020-02-11 16:13:01 INFO  CustomerController:43 - Customer Updated
+2020-02-11 16:13:33 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 16:13:33 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 16:13:33 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 16:13:33 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 16:13:33 INFO  Domain:28 - STOP: To close the application
+2020-02-11 16:13:40 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 16:13:40 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 16:13:40 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 16:13:40 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 16:13:40 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 16:13:40 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 16:14:03 INFO  CustomerController:37 - Please enter the id of the customer you would like to update
+2020-02-11 16:14:07 INFO  CustomerController:40 - Please enter a name
+2020-02-11 16:14:13 ERROR CustomerController:84 - Table 'yugioh.customers' doesn't exist
+2020-02-11 16:14:13 INFO  CustomerController:43 - Customer Updated
+2020-02-11 16:15:10 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 16:15:10 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 16:15:10 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 16:15:10 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 16:15:10 INFO  Domain:28 - STOP: To close the application
+2020-02-11 16:15:16 INFO  Ims:21 - What would you like to do with customer:
+2020-02-11 16:15:16 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 16:15:16 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 16:15:16 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 16:15:16 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 16:15:16 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-11 16:15:19 INFO  CustomerController:37 - Please enter the id of the customer you would like to update
+2020-02-11 16:15:22 INFO  CustomerController:40 - Please enter a name
+2020-02-11 16:15:28 INFO  CustomerController:43 - Customer Updated
+2020-02-11 17:11:27 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 17:11:27 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 17:11:27 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 17:11:27 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 17:11:27 INFO  Domain:28 - STOP: To close the application
+2020-02-11 17:12:57 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 17:12:57 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 17:12:57 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 17:12:57 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 17:12:57 INFO  Domain:28 - STOP: To close the application
+2020-02-11 17:42:04 INFO  Ims:17 - Which entity would you like to use?
+2020-02-11 17:42:04 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-11 17:42:04 INFO  Domain:28 - ITEM: Individual Items
+2020-02-11 17:42:04 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-11 17:42:04 INFO  Domain:28 - STOP: To close the application
+2020-02-11 17:42:16 INFO  Ims:21 - What would you like to do with item:
+2020-02-11 17:42:16 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-11 17:42:16 INFO  Action:27 - READ: To read an item from the database
+2020-02-11 17:42:16 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-11 17:42:16 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-11 17:42:16 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 09:02:37 INFO  Ims:17 - Which entity would you like to use?
+2020-02-12 09:02:37 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 09:02:37 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 09:02:37 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 09:02:37 INFO  Domain:28 - STOP: To close the application
+2020-02-12 09:02:43 INFO  Ims:21 - What would you like to do with item:
+2020-02-12 09:02:43 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 09:02:43 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 09:02:43 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 09:02:43 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 09:02:43 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 09:14:19 INFO  Ims:17 - Which entity would you like to use?
+2020-02-12 09:14:19 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 09:14:19 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 09:14:19 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 09:14:19 INFO  Domain:28 - STOP: To close the application
+2020-02-12 09:14:24 INFO  Ims:21 - What would you like to do with item:
+2020-02-12 09:14:24 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 09:14:24 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 09:14:24 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 09:14:24 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 09:14:24 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 09:14:44 INFO  Ims:17 - Which entity would you like to use?
+2020-02-12 09:14:44 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 09:14:44 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 09:14:44 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 09:14:44 INFO  Domain:28 - STOP: To close the application
+2020-02-12 09:14:49 INFO  Ims:21 - What would you like to do with customer:
+2020-02-12 09:14:49 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 09:14:49 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 09:14:49 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 09:14:49 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 09:14:49 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 09:14:52 INFO  CustomerController:23 - id:1Name:James Rea
+2020-02-12 09:14:52 INFO  CustomerController:23 - id:5Name:Chris Rea
+2020-02-12 09:14:52 INFO  CustomerController:23 - id:6Name:Harry Potter
+2020-02-12 09:21:02 INFO  Ims:17 - Which entity would you like to use?
+2020-02-12 09:21:02 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 09:21:02 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 09:21:02 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 09:21:02 INFO  Domain:28 - STOP: To close the application
+2020-02-12 09:21:11 INFO  Ims:21 - What would you like to do with item:
+2020-02-12 09:21:11 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 09:21:11 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 09:21:11 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 09:21:11 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 09:21:11 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 09:31:37 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 09:31:37 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 09:31:37 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 09:31:37 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 09:31:37 INFO  Domain:28 - STOP: To close the application
+2020-02-12 09:31:42 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 09:31:42 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 09:31:42 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 09:31:42 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 09:31:42 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 09:31:42 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 09:31:46 INFO  ItemController:22 - id:2Card:Blue Eyes White DragonCard_Cost:20.0
+2020-02-12 09:31:46 INFO  ItemController:22 - id:3Card:Dark HoleCard_Cost:3.0
+2020-02-12 09:33:10 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 09:33:10 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 09:33:10 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 09:33:10 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 09:33:10 INFO  Domain:28 - STOP: To close the application
+2020-02-12 09:33:21 INFO  Ims:24 - What would you like to do with customer:
+2020-02-12 09:33:21 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 09:33:21 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 09:33:21 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 09:33:21 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 09:33:21 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 09:33:23 INFO  CustomerController:23 - id:1 | Name:James Rea
+2020-02-12 09:33:23 INFO  CustomerController:23 - id:5 | Name:Chris Rea
+2020-02-12 09:33:23 INFO  CustomerController:23 - id:6 | Name:Harry Potter
+2020-02-12 09:33:24 INFO  ItemController:22 - id:2 | Card:Blue Eyes White Dragon | Card_Cost:£20.0
+2020-02-12 09:33:24 INFO  ItemController:22 - id:3 | Card:Dark Hole | Card_Cost:£3.0
+2020-02-12 10:03:07 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:03:07 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:03:07 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:03:07 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:03:07 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:03:17 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 10:03:17 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:03:17 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:03:17 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:03:17 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:03:17 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:03:48 INFO  ItemController:30 - Please enter a card ID:
+2020-02-12 10:03:51 INFO  ItemController:33 - Please enter a card name:
+2020-02-12 10:04:07 INFO  ItemController:35 - Please enter a card cost:
+2020-02-12 10:04:42 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:04:42 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:04:42 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:04:42 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:04:42 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:04:46 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 10:04:46 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:04:46 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:04:46 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:04:46 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:04:46 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:04:53 INFO  ItemController:30 - Please enter a card ID:
+2020-02-12 10:04:55 INFO  ItemController:33 - Please enter a card name:
+2020-02-12 10:05:08 INFO  ItemController:35 - Please enter a card cost:
+2020-02-12 10:05:14 INFO  ItemController:39 - Item created
+2020-02-12 10:20:47 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:20:47 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:20:47 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:20:47 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:20:47 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:21:37 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:21:37 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:21:37 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:21:37 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:21:37 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:21:42 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 10:21:42 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:21:42 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:21:42 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:21:42 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:21:42 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:21:45 INFO  ItemController:24 - id:2 | Card:Blue Eyes White Dragon | Card_Cost:£20.0
+2020-02-12 10:21:45 INFO  ItemController:24 - id:3 | Card:Dark Hole | Card_Cost:£3.0
+2020-02-12 10:21:45 INFO  ItemController:24 - id:5 | Card:red eyes black dragon | Card_Cost:£30.0
+2020-02-12 10:21:53 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:21:53 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:21:53 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:21:53 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:21:53 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:21:56 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 10:21:56 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:21:56 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:21:56 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:21:56 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:21:56 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:22:00 INFO  ItemController:30 - Please enter a card ID:
+2020-02-12 10:22:06 INFO  ItemController:33 - Please enter a card name:
+2020-02-12 10:22:14 INFO  ItemController:35 - Please enter a card cost:
+2020-02-12 10:22:18 INFO  ItemController:39 - Item created
+2020-02-12 10:22:26 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:22:26 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:22:26 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:22:26 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:22:26 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:22:43 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 10:22:43 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:22:43 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:22:43 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:22:43 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:22:43 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:22:49 INFO  ItemController:24 - id:2 | Card:Blue Eyes White Dragon | Card_Cost:£20.0
+2020-02-12 10:22:49 INFO  ItemController:24 - id:3 | Card:Dark Hole | Card_Cost:£3.0
+2020-02-12 10:22:49 INFO  ItemController:24 - id:5 | Card:red eyes black dragon | Card_Cost:£30.0
+2020-02-12 10:22:49 INFO  ItemController:24 - id:72 | Card:Dark magician | Card_Cost:£15.0
+2020-02-12 10:22:59 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:22:59 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:22:59 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:22:59 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:22:59 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:23:13 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 10:23:13 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:23:13 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:23:13 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:23:13 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:23:13 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:23:24 INFO  ItemController:44 - Please enter the id of the card you would like to update
+2020-02-12 10:23:34 INFO  ItemController:47 - Please enter the card name:
+2020-02-12 10:23:42 INFO  ItemController:49 - Please enter a cost
+2020-02-12 10:23:52 INFO  ItemController:53 - Customer Updated
+2020-02-12 10:24:09 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:24:09 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:24:09 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:24:09 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:24:09 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:24:13 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 10:24:13 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:24:13 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:24:13 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:24:13 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:24:13 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:24:15 INFO  ItemController:24 - id:2 | Card:Blue Eyes White Dragon | Card_Cost:£20.0
+2020-02-12 10:24:15 INFO  ItemController:24 - id:3 | Card:Dark Hole | Card_Cost:£3.0
+2020-02-12 10:24:15 INFO  ItemController:24 - id:5 | Card:red eyes black dragon | Card_Cost:£30.0
+2020-02-12 10:24:15 INFO  ItemController:24 - id:72 | Card:Dark magician | Card_Cost:£12.0
+2020-02-12 10:24:29 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:24:29 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:24:29 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:24:29 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:24:29 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:24:32 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 10:24:32 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:24:32 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:24:32 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:24:32 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:24:32 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:24:34 INFO  ItemController:60 - Please enter the Id of the card you want to delete
+2020-02-12 10:24:38 INFO  ItemController:64 - Card deleted
+2020-02-12 10:24:41 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:24:41 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:24:41 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:24:41 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:24:41 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:24:49 INFO  Ims:24 - What would you like to do with item:
+2020-02-12 10:24:49 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:24:49 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:24:49 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:24:49 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:24:49 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:24:52 INFO  ItemController:24 - id:2 | Card:Blue Eyes White Dragon | Card_Cost:£20.0
+2020-02-12 10:24:52 INFO  ItemController:24 - id:3 | Card:Dark Hole | Card_Cost:£3.0
+2020-02-12 10:24:52 INFO  ItemController:24 - id:5 | Card:red eyes black dragon | Card_Cost:£30.0
+2020-02-12 10:24:59 INFO  Ims:20 - Which entity would you like to use?
+2020-02-12 10:24:59 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 10:24:59 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 10:24:59 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 10:24:59 INFO  Domain:28 - STOP: To close the application
+2020-02-12 10:25:03 INFO  Ims:24 - What would you like to do with customer:
+2020-02-12 10:25:03 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 10:25:03 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 10:25:03 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 10:25:03 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 10:25:03 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 10:25:07 INFO  CustomerController:23 - id:1 | Name:James Rea
+2020-02-12 10:25:07 INFO  CustomerController:23 - id:5 | Name:Chris Rea
+2020-02-12 10:25:07 INFO  CustomerController:23 - id:6 | Name:Harry Potter
+2020-02-12 10:25:07 INFO  ItemController:24 - id:2 | Card:Blue Eyes White Dragon | Card_Cost:£20.0
+2020-02-12 10:25:07 INFO  ItemController:24 - id:3 | Card:Dark Hole | Card_Cost:£3.0
+2020-02-12 10:25:07 INFO  ItemController:24 - id:5 | Card:red eyes black dragon | Card_Cost:£30.0
+2020-02-12 13:44:06 INFO  Ims:23 - What is your username
+2020-02-12 13:44:10 INFO  Ims:25 - What is your password
+2020-02-12 13:44:12 INFO  Ims:29 - Which entity would you like to use?
+2020-02-12 13:44:12 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 13:44:12 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 13:44:12 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 13:44:12 INFO  Domain:28 - STOP: To close the application
+2020-02-12 13:44:24 INFO  Ims:33 - What would you like to do with customer:
+2020-02-12 13:44:24 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 13:44:24 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 13:44:24 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 13:44:24 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 13:44:24 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 13:44:30 ERROR CustomerController:43 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-02-12 13:44:45 INFO  Ims:23 - What is your username
+2020-02-12 13:44:50 INFO  Ims:25 - What is your password
+2020-02-12 13:44:53 INFO  Ims:29 - Which entity would you like to use?
+2020-02-12 13:44:53 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 13:44:53 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 13:44:53 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 13:44:53 INFO  Domain:28 - STOP: To close the application
+2020-02-12 13:44:57 INFO  Ims:33 - What would you like to do with item:
+2020-02-12 13:44:57 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 13:44:57 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 13:44:57 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 13:44:57 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 13:44:57 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 13:45:02 ERROR ItemController:45 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-02-12 13:57:41 INFO  Ims:23 - What is your username
+2020-02-12 13:57:52 INFO  Ims:25 - What is your password
+2020-02-12 13:57:55 INFO  Ims:29 - Which entity would you like to use?
+2020-02-12 13:57:55 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 13:57:55 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 13:57:55 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 13:57:55 INFO  Domain:28 - STOP: To close the application
+2020-02-12 13:57:58 INFO  Ims:33 - What would you like to do with customer:
+2020-02-12 13:57:58 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 13:57:58 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 13:57:58 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 13:57:58 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 13:57:58 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 13:58:02 ERROR CustomerController:47 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-02-12 14:16:45 INFO  Ims:23 - What is your username
+2020-02-12 14:16:50 INFO  Ims:25 - What is your password
+2020-02-12 14:16:52 INFO  Ims:29 - Which entity would you like to use?
+2020-02-12 14:16:52 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 14:16:52 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 14:16:52 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 14:16:52 INFO  Domain:28 - STOP: To close the application
+2020-02-12 14:16:57 INFO  Ims:33 - What would you like to do with customer:
+2020-02-12 14:16:57 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 14:16:57 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 14:16:57 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 14:16:57 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 14:16:57 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 14:17:00 ERROR CustomerController:47 - Unknown database 'ims'
+2020-02-12 14:17:40 INFO  Ims:23 - What is your username
+2020-02-12 14:17:49 INFO  Ims:25 - What is your password
+2020-02-12 14:17:52 INFO  Ims:29 - Which entity would you like to use?
+2020-02-12 14:17:52 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-12 14:17:52 INFO  Domain:28 - ITEM: Individual Items
+2020-02-12 14:17:52 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-12 14:17:52 INFO  Domain:28 - STOP: To close the application
+2020-02-12 14:17:56 INFO  Ims:33 - What would you like to do with customer:
+2020-02-12 14:17:56 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-12 14:17:56 INFO  Action:27 - READ: To read an item from the database
+2020-02-12 14:17:56 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-12 14:17:56 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-12 14:17:56 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-12 14:17:58 INFO  CustomerController:23 - id:1 | Name:James Rea
+2020-02-12 14:17:58 INFO  CustomerController:23 - id:5 | Name:Chris Rea
+2020-02-12 14:17:58 INFO  CustomerController:23 - id:6 | Name:Harry Potter
+2020-02-13 10:21:45 INFO  Ims:26 - What is your username
+2020-02-13 10:21:49 INFO  Ims:28 - What is your password
+2020-02-13 10:21:52 INFO  Ims:32 - Which entity would you like to use?
+2020-02-13 10:21:52 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-02-13 10:21:52 INFO  Domain:28 - ITEM: Individual Items
+2020-02-13 10:21:52 INFO  Domain:28 - ORDER: Purchases of items
+2020-02-13 10:21:52 INFO  Domain:28 - STOP: To close the application
+2020-02-13 10:22:03 INFO  Ims:36 - What would you like to do with customer:
+2020-02-13 10:22:03 INFO  Action:27 - CREATE: To save a new item into the database
+2020-02-13 10:22:03 INFO  Action:27 - READ: To read an item from the database
+2020-02-13 10:22:03 INFO  Action:27 - UPDATE: To change an item already in the database
+2020-02-13 10:22:03 INFO  Action:27 - DELETE: To remove an item from the database
+2020-02-13 10:22:03 INFO  Action:27 - RETURN: To return to domain selection
+2020-02-13 10:22:07 INFO  CustomerController:23 - id:1 | Name:James Rea
+2020-02-13 10:22:07 INFO  CustomerController:23 - id:5 | Name:Chris Rea
+2020-02-13 10:22:07 INFO  CustomerController:23 - id:6 | Name:Harry Potter
+2020-02-13 11:37:01 INFO  CustomerController:23 - id:0 | Name:Chris Perrins
+2020-02-13 11:37:01 INFO  CustomerController:23 - id:0 | Name:Rhys Thompson
+2020-02-13 11:37:01 INFO  CustomerController:23 - id:0 | Name:George Name
+2020-02-13 11:51:21 INFO  CustomerController:23 - id:0 | Name:Chris Perrins
+2020-02-13 11:51:21 INFO  CustomerController:23 - id:0 | Name:Rhys Thompson
+2020-02-13 11:51:21 INFO  CustomerController:23 - id:0 | Name:George Name
+2020-02-13 12:47:14 INFO  CustomerController:33 - id:0 | Name:Chris Perrins
+2020-02-13 12:47:14 INFO  CustomerController:33 - id:0 | Name:Rhys Thompson
+2020-02-13 12:47:14 INFO  CustomerController:33 - id:0 | Name:George Name
+2020-02-13 12:47:14 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 12:48:02 INFO  CustomerController:55 - Please enter a name
+2020-02-13 12:48:09 INFO  CustomerController:58 - Customer Updated
+2020-02-13 12:48:09 INFO  CustomerController:42 - Please enter a Name
+2020-02-13 12:52:38 INFO  CustomerController:33 - id:0 | Name:Chris Perrins
+2020-02-13 12:52:38 INFO  CustomerController:33 - id:0 | Name:Rhys Thompson
+2020-02-13 12:52:38 INFO  CustomerController:33 - id:0 | Name:George Name
+2020-02-13 12:52:38 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 13:58:21 INFO  CustomerController:33 - id:0 | Name:Chris Perrins
+2020-02-13 13:58:21 INFO  CustomerController:33 - id:0 | Name:Rhys Thompson
+2020-02-13 13:58:21 INFO  CustomerController:33 - id:0 | Name:George Name
+2020-02-13 13:58:21 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 14:02:42 INFO  CustomerController:33 - id:0 | Name:Chris Perrins
+2020-02-13 14:02:42 INFO  CustomerController:33 - id:0 | Name:Rhys Thompson
+2020-02-13 14:02:42 INFO  CustomerController:33 - id:0 | Name:George Name
+2020-02-13 14:02:42 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 14:03:08 INFO  CustomerController:33 - id:0 | Name:Chris Perrins
+2020-02-13 14:03:08 INFO  CustomerController:33 - id:0 | Name:Rhys Thompson
+2020-02-13 14:03:08 INFO  CustomerController:33 - id:0 | Name:George Name
+2020-02-13 14:03:08 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 14:15:37 INFO  CustomerController:33 - id:0 | Name:Chris Perrins
+2020-02-13 14:15:37 INFO  CustomerController:33 - id:0 | Name:Rhys Thompson
+2020-02-13 14:15:37 INFO  CustomerController:33 - id:0 | Name:George Name
+2020-02-13 14:15:37 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 14:54:16 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 14:54:28 INFO  CustomerController:55 - Please enter a name
+2020-02-13 14:54:39 INFO  CustomerController:58 - Customer Updated
+2020-02-13 14:54:39 INFO  CustomerController:42 - Please enter a Name
+2020-02-13 14:55:04 INFO  CustomerController:45 - Customer created
+2020-02-13 14:55:04 INFO  CustomerController:66 - Please enter the Id of the customer you want to delete
+2020-02-13 14:55:14 INFO  CustomerController:70 - Customer deleted
+2020-02-13 14:58:08 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 15:27:54 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 17:13:17 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 17:17:53 INFO  CustomerController:42 - Please enter a Name
+2020-02-13 17:26:53 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 17:26:59 INFO  CustomerController:55 - Please enter a name
+2020-02-13 17:27:04 INFO  CustomerController:58 - Customer Updated
+2020-02-13 17:27:04 INFO  CustomerController:42 - Please enter a Name
+2020-02-13 17:32:25 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 17:37:25 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 17:37:25 INFO  CustomerController:55 - Please enter a name
+2020-02-13 17:37:25 INFO  CustomerController:58 - Customer Updated
+2020-02-13 17:37:25 INFO  CustomerController:42 - Please enter a Name
+2020-02-13 17:37:25 INFO  CustomerController:45 - Customer created
+2020-02-13 17:37:25 INFO  CustomerController:66 - Please enter the Id of the customer you want to delete
+2020-02-13 17:37:25 INFO  CustomerController:70 - Customer deleted
+2020-02-13 17:40:58 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 17:40:58 INFO  CustomerController:55 - Please enter a name
+2020-02-13 17:40:58 INFO  CustomerController:58 - Customer Updated
+2020-02-13 17:40:58 INFO  CustomerController:42 - Please enter a Name
+2020-02-13 17:40:58 INFO  CustomerController:45 - Customer created
+2020-02-13 17:40:58 INFO  CustomerController:66 - Please enter the Id of the customer you want to delete
+2020-02-13 17:40:58 INFO  CustomerController:70 - Customer deleted
+2020-02-13 17:45:00 INFO  CustomerController:52 - Please enter the id of the customer you would like to update
+2020-02-13 17:45:00 INFO  CustomerController:55 - Please enter a name
+2020-02-13 17:45:00 INFO  CustomerController:58 - Customer Updated
+2020-02-13 17:45:00 INFO  CustomerController:42 - Please enter a Name
+2020-02-13 17:45:00 INFO  CustomerController:45 - Customer created
+2020-02-13 17:45:00 INFO  CustomerController:66 - Please enter the Id of the customer you want to delete
+2020-02-13 17:45:00 INFO  CustomerController:70 - Customer deleted
+2020-02-13 17:46:18 INFO  CustomerController:53 - Please enter the id of the customer you would like to update
+2020-02-13 17:46:18 INFO  CustomerController:56 - Please enter a name
+2020-02-13 17:46:18 INFO  CustomerController:59 - Customer Updated
+2020-02-13 17:46:18 INFO  CustomerController:43 - Please enter a Name
+2020-02-13 17:46:18 INFO  CustomerController:45 - Customer created
+2020-02-13 17:46:18 INFO  CustomerController:68 - Please enter the Id of the customer you want to delete
+2020-02-13 17:46:18 INFO  CustomerController:72 - Customer deleted
+2020-02-13 17:47:28 INFO  CustomerController:53 - Please enter the id of the customer you would like to update
+2020-02-13 17:47:28 INFO  CustomerController:56 - Please enter a name
+2020-02-13 17:47:28 INFO  CustomerController:59 - Customer Updated
+2020-02-13 17:47:28 INFO  CustomerController:43 - Please enter a Name
+2020-02-13 17:47:28 INFO  CustomerController:45 - Customer created
+2020-02-13 17:47:28 INFO  CustomerController:68 - Please enter the Id of the customer you want to delete
+2020-02-13 17:47:28 INFO  CustomerController:72 - Customer deleted
+2020-02-13 17:48:09 INFO  CustomerController:34 - id:0 | Name:Chris Perrins
+2020-02-13 17:48:09 INFO  CustomerController:34 - id:0 | Name:Rhys Thompson
+2020-02-13 17:48:09 INFO  CustomerController:34 - id:0 | Name:George Name
+2020-02-13 17:48:09 INFO  CustomerController:53 - Please enter the id of the customer you would like to update
+2020-02-13 17:48:09 INFO  CustomerController:56 - Please enter a name
+2020-02-13 17:48:09 INFO  CustomerController:59 - Customer Updated
+2020-02-13 17:48:09 INFO  CustomerController:43 - Please enter a Name
+2020-02-13 17:48:09 INFO  CustomerController:45 - Customer created
+2020-02-13 17:48:09 INFO  CustomerController:68 - Please enter the Id of the customer you want to delete
+2020-02-13 17:48:09 INFO  CustomerController:72 - Customer deleted
+2020-02-14 12:14:17 INFO  ItemController:30 - id:1 | Card:apple | Card_Cost:£10.0
+2020-02-14 12:14:17 INFO  ItemController:56 - Please enter the id of the card you would like to update
+2020-02-14 12:15:30 INFO  ItemController:30 - id:1 | Card:apple | Card_Cost:£10.0
+2020-02-14 12:15:30 INFO  ItemController:74 - Please enter the Id of the card you want to delete
+2020-02-14 14:31:54 INFO  CustomerController:34 - id:0 | Name:Chris Perrins
+2020-02-14 14:31:54 INFO  CustomerController:34 - id:0 | Name:Rhys Thompson
+2020-02-14 14:31:54 INFO  CustomerController:34 - id:0 | Name:George Name
+2020-02-14 14:31:54 INFO  CustomerController:53 - Please enter the id of the customer you would like to update
+2020-02-14 14:31:54 INFO  CustomerController:56 - Please enter a name
+2020-02-14 14:31:54 INFO  CustomerController:59 - Customer Updated
+2020-02-14 14:31:54 INFO  CustomerController:43 - Please enter a Name
+2020-02-14 14:31:54 INFO  CustomerController:45 - Customer created
+2020-02-14 14:31:54 INFO  CustomerController:68 - Please enter the Id of the customer you want to delete
+2020-02-14 14:31:54 INFO  CustomerController:72 - Customer deleted
