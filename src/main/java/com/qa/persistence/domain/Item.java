@@ -13,7 +13,7 @@ public class Item {
 	public void setCardCost(double cardCost) {
 		this.cardCost = cardCost;
 	}
-
+ 
 	public Item(String card2) {
 		this.card = card2;
 	}

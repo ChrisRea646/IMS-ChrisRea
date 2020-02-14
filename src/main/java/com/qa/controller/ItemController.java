@@ -14,7 +14,7 @@ import com.qa.utils.Utils;
  */
 public class ItemController implements CrudController<Item> {
 	
-	public static final Logger LOGGER = Logger.getLogger(ItemController.class);
+	public static final Logger LOGGER = Logger.getLogger(ItemController.class); 
 	
 	private CrudServices<Item> itemService;
 
@@ -77,6 +77,9 @@ public class ItemController implements CrudController<Item> {
 		itemService.delete(id);
 		LOGGER.info("Card deleted");
 
+	}
+	String getInput() {
+		return Utils.getInput();
 	}
 
 }
