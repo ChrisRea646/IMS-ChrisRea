@@ -16,7 +16,7 @@ import com.qa.utils.Utils;
 
 public class CustomerDaoMysql implements Dao<Customer> { 
 
-	public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
+	public static final Logger LOGGER = Logger.getLogger(CustomerController.class); 
 	private Statement statement = null;
 	private ResultSet resultSet = null;
 

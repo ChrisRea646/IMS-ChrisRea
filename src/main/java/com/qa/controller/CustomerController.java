@@ -25,7 +25,7 @@ public class CustomerController implements CrudController<Customer> {
 	String getInput() {
 		return Utils.getInput();
 	}
-
+ 
 	/**
 	 * Reads all customers to the logger
 	 */
